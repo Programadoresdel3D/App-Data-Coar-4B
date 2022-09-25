@@ -1,0 +1,32 @@
+{
+  "name": "app-data-coar-4b",
+  "version": "1.0.0",
+  "description": "This is a web app where you can get free and public information about our promotion 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programadoresdel3D/App-Data-Coar-4B.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "students",
+    "coar",
+    "LP"
+  ],
+  "author": "Joseph.Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Programadoresdel3D/App-Data-Coar-4B/issues"
+  },
+  "homepage": "https://github.com/Programadoresdel3D/App-Data-Coar-4B#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,10 @@
+@import url("./css/nav.css");
+@import url('./css/header.css');
+@import url("./css/root.css");
+@import url("./css/data.css");
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

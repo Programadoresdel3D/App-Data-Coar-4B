@@ -1,0 +1,29 @@
+.list{
+    background-color: #00ffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 5em;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.list-item{
+    list-style: none;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1em;
+    transition: 1s;
+    cursor: pointer;
+}
+.list-item:hover{
+    box-shadow: black 0px 0px 10px;
+}
+
+.list-item span{
+    font-size: 1em;
+    text-align: center;
+
+}

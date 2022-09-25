@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Joseph';
+    src: url('./fonts/josephsophia.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@import url('./root.css');
+
+.nav_main{
+    background: var(--bg2);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.nav_main div{
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_main div .img1_nav img{
+    width: 3em;
+}
+
+.nav_main div .img2_nav img{
+    width: 3em;
+}
+
+.nav_main div .title a{
+    font-family: 'Joseph';
+    font-size: 2em;
+    transition: 2s;
+    background: none;
+    color: var(--fg);
+    text-decoration: none;
+    transition: 2s;
+    cursor: pointer;
+}
